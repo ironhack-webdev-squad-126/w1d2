@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.teaser {
+    background-image: url('./apples.jpg');
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.teaser-heading {
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 25px calc((100vw - 960px) / 2);
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.ingredients-list {
+    list-style-type: square;
+}
