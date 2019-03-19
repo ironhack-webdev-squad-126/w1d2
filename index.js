@@ -38,8 +38,40 @@
 // console.log(extractEx(arExTwo))
 // console.log(extractEx(arExThree))
 
-const team = ['Lukas', 'Min', 'Samantha', 'Thor']
+// const team = ['Lukas', 'Min', 'Samantha', 'Thor']
 
-team.forEach(function(teamMember) {
-    console.log(`Hello ${teamMember}`)
-})
+// team.forEach(function(teamMember) {
+//     console.log(`Hello ${teamMember}`)
+// })
+
+// RANDOM SELECTOR
+const students = [
+    'Remy',
+    'Lukas',
+    'Eddie',
+    'Gary',
+    'Sylvie',
+    'Alina',
+    'Julia',
+    'Theresa',
+    'Arian',
+    'André',
+    'Jesús',
+    'Fabio',
+    'Helleke',
+    'Tasos',
+    'Hamza',
+    'Bianca',
+    'Nathan',
+    'Antoni',
+    'Aswin',
+]
+
+function pickRandom(arr) {
+    const rand = Math.floor(Math.random() * arr.length) // 0 - 1
+    const randomStudent = arr[rand]
+    return randomStudent
+}
+
+console.log(pickRandom(students))
+console.log(pickRandom(['red', 'green', 'blue', 'yellow', 'grey', 'brown']))
