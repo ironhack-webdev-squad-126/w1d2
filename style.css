@@ -1,0 +1,37 @@
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+ul {
+    background-color: rgba(155, 130, 190, 0.6);
+}
+
+li,
+a {
+    color: rgb(167, 0, 239);
+}
+
+img {
+    width: 100vw;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+#red {
+    color: red;
+}
+
+.heading {
+    font-weight: 600;
+    color: #7396f8;
+}
+
+.heading.heading-two {
+    text-decoration: underline;
+}
