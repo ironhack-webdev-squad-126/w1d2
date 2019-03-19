@@ -22,18 +22,24 @@
 //     console.log('Hello')
 // }, 3000)
 
-const arEx = [[[[[[[[[[['!']]]]]]]]]]]
-const arExTwo = [[[[['!']]]]]
-const arExThree = [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['!']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+// const arEx = [[[[[[[[[[['!']]]]]]]]]]]
+// const arExTwo = [[[[['!']]]]]
+// const arExThree = [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['!']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
-function extractEx(arr, count = 0) {
-    if (count > 30) throw new Error('Too deep inside recursion')
-    if (arr === '!') return [arr, count]
-    else {
-        return extractEx(arr[0], count + 1)
-    }
-}
+// function extractEx(arr, count = 0) {
+//     if (count > 30) throw new Error('Too deep inside recursion')
+//     if (arr === '!') return [arr, count]
+//     else {
+//         return extractEx(arr[0], count + 1)
+//     }
+// }
 
-console.log(extractEx(arEx))
-console.log(extractEx(arExTwo))
-console.log(extractEx(arExThree))
+// console.log(extractEx(arEx))
+// console.log(extractEx(arExTwo))
+// console.log(extractEx(arExThree))
+
+const team = ['Lukas', 'Min', 'Samantha', 'Thor']
+
+team.forEach(function(teamMember) {
+    console.log(`Hello ${teamMember}`)
+})
